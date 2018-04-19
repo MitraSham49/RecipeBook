@@ -1,0 +1,10 @@
+img {
+    height:200px;
+}
+.borderme{
+    border-style: dotted;
+
+}
+ul.a {
+    list-style-type: circle;
+}
