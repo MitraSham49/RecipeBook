@@ -27,6 +27,16 @@ public class MainController {
 
         return "recipes";
     }
+    @RequestMapping("/home")
+    public String showhome()
+    {
 
+        return "recipes";
+    }
+    @RequestMapping("/recipbook")
+    public String showrecipe()
+    {
 
+        return "recipes";
+    }
 }
