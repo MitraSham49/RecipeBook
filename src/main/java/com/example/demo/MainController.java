@@ -21,7 +21,7 @@ public class MainController {
 
         return "chickenwings";
     }
-    @RequestMapping("/recipes")
+    @RequestMapping("/")
     public String showrecipes()
     {
 
