@@ -9,7 +9,107 @@
 
 </head>
 <body>
-!-- A grey horizontal navbar that becomes vertical on small screens -->
+div class="container">
+<div class="well well-sm">
+    <!-- A simple navigation bar with Twitter Bootstrap -->
+    <!-- Start with the navigation bar. It should be within a nav element, and showld have the classes indictaed below.They can be default, inverse, or transparent-->
+    <nav class="navbar navbar-inverse">
+        <!-- Make sure the container is available so that the content can be appropriately laid out -->
+        <div class="container-fluid">
+            <!-- if you want a prominent place to show the name of the application or website, use a brand. Remember that the text (and navbar) can be styled to suit the 'client'-->
+            <div class="navbar-header">
+                <!-- Create a button to display the navbar when the screen is collapsed. This is why you add the collapsed class to the button-->
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#my-collapsible-navbar"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-envleope"></span>
+                </button>
 
+                <a class="navbar-brand">My Recipe Book</a>
+            </div>
+            <!-- Include an unordered list for the navigation links -->
+            <div class="collapse navbar-collapse" id="my-collapsible-navbar">
+                <!-- Surrond the nav bar with a div that tells the navbar that it will display the content when the data target #my-collapsible-navbar is toggled -->
+                <ul class="nav navbar-nav">
+                    <li><a href="recipebook">RecipeBook</a></li>
+                    <li><a href="crabbypage">Crabcake</a></li>
+                    <li><a href="injera">Injera</a></li>
+                    <li><a href="chickenwings">Wings</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="products" class="row list-group">
+    <div class="item  col-xs-4 col-lg-4">
+        <div class="thumbnail">
+            <img class="group list-group-image" src="https://cdn.pixabay.com/photo/2015/06/06/03/02/grilled-wings-799052_960_720.jpg" alt="this is a chicken wing" />
+            <div class="caption">
+                <h4 class="group inner list-group-item-heading">Sichuan Chicken Wings</h4>
+                <p class="group inner list-group-item-text">
+                    USA</p>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <p class="lead">
+                            Serves 6</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <a class="btn btn-success" href="checkenwings.html">GET THE RECIPE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item  col-xs-4 col-lg-4">
+        <div class="thumbnail">
+            <img class="group list-group-image" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Injera.jpg" alt="injera" />
+            <div class="caption">
+                <h4 class="group inner list-group-item-heading">Injera</h4>
+                <p class="group inner list-group-item-text">Ethiopia</p>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <p class="lead">Serves 6</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <a class="btn btn-success" href="injera.html">GET THE RECIPE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item  col-xs-4 col-lg-4">
+        <div class="thumbnail">
+            <img class="group list-group-image" src="https://c1.staticflickr.com/5/4154/4976761276_7edb1bfeb7_b.jpg" alt="" />
+            <div class="caption">
+                <h4 class="group inner list-group-item-heading">
+                    Crabcake</h4>
+                <p class="group inner list-group-item-text">China</p>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <p class="lead">Serves 4</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <a class="btn btn-success" href="crabbypage.html">GET THE RECIPE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ul class="nav navbar-nav">
+    <li><a href="recipebook">RecipeBook</a></li>
+    <li><a href="crabbypage">Crabcake</a></li>
+
+    <li><a href="injera">Injera</a></li>
+
+    <li><a href="chickenwings">Wings</a></li>
+</ul>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>.
 </body>
 </html>
