@@ -1,6 +1,9 @@
 img {
     height:200px;
 }
+.flg{
+    height:50px;
+}
 .borderme{
     border-style: dotted;
 

@@ -5,7 +5,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
      @RequestMapping("/")
-    public String ShoeIndex(){
-         return "crabbypage";
-     }
+    public String Showusa(){
+        return "crabbypage";
+    }
+
+    @RequestMapping("/injera")
+    public String showethiopia()
+    {
+
+        return "injera";
+    }
+    @RequestMapping("/chickenwings")
+    public String showchina()
+    {
+
+        return "chickenwings";
+    }
+    @RequestMapping("/recipes")
+    public String showrecipes()
+    {
+
+        return "recipes";
+    }
+
+
 }
