@@ -30,12 +30,31 @@ public class MainController {
 
         return "eggsauce";
     }
+
+    @RequestMapping("/noodles")
+    public String showtaiwan()
+    {
+
+        return "noodles";
+    }
+
+    @RequestMapping("/makhrouds")
+    public String showtunisian()
+    {
+
+        return "makhrouds";
+    }
+
+
     @RequestMapping("/")
     public String showrecipes()
     {
 
         return "recipes";
     }
+
+
+
 
     @RequestMapping("/home")
     public String showhome()
@@ -51,4 +70,5 @@ public class MainController {
 
         return "recipes";
     }
+
 }
