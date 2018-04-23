@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<!-- A grey horizontal navbar that becomes vertical on small screens -->
-<nav class="navbar navbar-expand-sm bg-light">
 
+<div th:replace="base :: navlink" ></div>
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<!--
+<nav class="navbar navbar-expand-sm bg-light">
+-->
     <!-- Links -->
+<!--
     <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
@@ -22,11 +26,15 @@
     </ul>
 
 </nav>
+
+
+
+-->
 <div class="container">
     <div class="row ">
         <div class="col">
             <h1> Sichuan Chicken Wings</h1>
-            <p>  China <img class="flg" src="img/china.jpg" alt=" China"> </p>
+            <p class="font">  China <img class="flg" src="img/china.jpg" alt=" China"> </p>
 
         </div>
     </div>

@@ -21,19 +21,31 @@ public class MainController {
 
         return "chickenwings";
     }
+
+
+
+    @RequestMapping("/eggsauce")
+    public String shownigeria()
+    {
+
+        return "eggsauce";
+    }
     @RequestMapping("/")
     public String showrecipes()
     {
 
         return "recipes";
     }
+
     @RequestMapping("/home")
     public String showhome()
     {
 
         return "recipes";
     }
-    @RequestMapping("/recipbook")
+
+
+    @RequestMapping("/recipebook")
     public String showrecipe()
     {
 

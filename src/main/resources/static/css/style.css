@@ -13,7 +13,11 @@ ul.a {
 }
 
 .font {
-    font-family: 'Tangerine', cursive;
+
+
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight:bold;
 }
 
 
