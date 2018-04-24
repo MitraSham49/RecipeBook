@@ -68,7 +68,7 @@ public class MainController {
     public String showrecipe()
     {
 
-        return "recipes";
+        return "recipebook";
     }
 
 }
